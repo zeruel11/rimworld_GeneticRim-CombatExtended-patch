@@ -9,7 +9,7 @@
 	
 			<!-- Catbears -->
 			<li Class="PatchOperationAddModExtension">
-				<xpath>*/ThingDef[defName="GR_Catalope"]</xpath>
+				<xpath>*/ThingDef[defName="GR_Catbear"]</xpath>
 				<value>
 				<li Class="CombatExtended.RacePropertiesExtensionCE">
 					<bodyShape>Quadruped</bodyShape>
@@ -18,7 +18,7 @@
 			</li>
 						
 			<li Class="PatchOperationAdd">
-				<xpath>*/ThingDef[defName="GR_Catalope"]/statBases</xpath>
+				<xpath>*/ThingDef[defName="GR_Catbear"]/statBases</xpath>
 				<value>
 				<MeleeDodgeChance>0.25</MeleeDodgeChance>
 				<MeleeCritChance>0.5</MeleeCritChance>
@@ -26,7 +26,7 @@
 			</li>
 			
 			<li Class="PatchOperationReplace">
-				<xpath>*/ThingDef[defName="GR_Catalope"]/tools</xpath>
+				<xpath>*/ThingDef[defName="GR_Catbear"]/tools</xpath>
 				<value>
 					<tools>
 						<li Class="CombatExtended.ToolCE">
