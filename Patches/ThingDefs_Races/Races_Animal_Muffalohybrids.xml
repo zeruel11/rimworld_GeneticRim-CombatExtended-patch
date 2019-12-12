@@ -6,31 +6,33 @@
 			<li Class="CombatExtended.PatchOperationFindMod">
 				<modName>Genetic Rim</modName>
 			</li>
-	
+
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_Muffalobear"]</xpath>
 				<value>
-				<li Class="CombatExtended.RacePropertiesExtensionCE">
-					<bodyShape>Quadruped</bodyShape>
-				</li>
+					<li Class="CombatExtended.RacePropertiesExtensionCE">
+						<bodyShape>Quadruped</bodyShape>
+					</li>
 				</value>
 			</li>
-						
+
 			<li Class="PatchOperationAdd">
 				<xpath>*/ThingDef[defName="GR_Muffalobear"]/statBases</xpath>
 				<value>
-				<MeleeDodgeChance>0.05</MeleeDodgeChance>
-				<MeleeCritChance>0.5</MeleeCritChance>
+					<MeleeDodgeChance>0.05</MeleeDodgeChance>
+					<MeleeCritChance>0.5</MeleeCritChance>
 				</value>
 			</li>
-			
+
 			<li Class="PatchOperationReplace">
 				<xpath>*/ThingDef[defName="GR_Muffalobear"]/tools</xpath>
 				<value>
 					<tools>
 						<li Class="CombatExtended.ToolCE">
 							<label>head</label>
-							<capacities><li>Blunt</li></capacities>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
 							<power>18</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
@@ -39,30 +41,32 @@
 					</tools>
 				</value>
 			</li>
-			
+
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_Muffalochicken"]</xpath>
 				<value>
-				<li Class="CombatExtended.RacePropertiesExtensionCE">
-					<bodyShape>Quadruped</bodyShape>
-				</li>
+					<li Class="CombatExtended.RacePropertiesExtensionCE">
+						<bodyShape>Quadruped</bodyShape>
+					</li>
 				</value>
 			</li>
-						
+
 			<li Class="PatchOperationAdd">
 				<xpath>*/ThingDef[defName="GR_Muffalochicken"]/statBases</xpath>
 				<value>
-				<MeleeDodgeChance>0.08</MeleeDodgeChance>
-				<MeleeCritChance>0.1</MeleeCritChance>
+					<MeleeDodgeChance>0.08</MeleeDodgeChance>
+					<MeleeCritChance>0.1</MeleeCritChance>
 				</value>
 			</li>
-			
+
 			<li Class="PatchOperationReplace">
 				<xpath>*/ThingDef[defName="GR_Muffalochicken"]/tools</xpath>
 				<value>
 					<tools>
 						<li Class="CombatExtended.ToolCE">
-							<capacities><li>Bite</li></capacities>
+							<capacities>
+								<li>Bite</li>
+							</capacities>
 							<power>8</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
@@ -70,7 +74,9 @@
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>head</label>
-							<capacities><li>Blunt</li></capacities>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
 							<power>8</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
@@ -79,31 +85,33 @@
 					</tools>
 				</value>
 			</li>
-			
+
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_Muffalope"]</xpath>
 				<value>
-				<li Class="CombatExtended.RacePropertiesExtensionCE">
-					<bodyShape>Quadruped</bodyShape>
-				</li>
+					<li Class="CombatExtended.RacePropertiesExtensionCE">
+						<bodyShape>Quadruped</bodyShape>
+					</li>
 				</value>
 			</li>
-						
+
 			<li Class="PatchOperationAdd">
 				<xpath>*/ThingDef[defName="GR_Muffalope"]/statBases</xpath>
 				<value>
-				<MeleeDodgeChance>0.05</MeleeDodgeChance>
-				<MeleeCritChance>0.1</MeleeCritChance>
+					<MeleeDodgeChance>0.05</MeleeDodgeChance>
+					<MeleeCritChance>0.1</MeleeCritChance>
 				</value>
 			</li>
-			
+
 			<li Class="PatchOperationReplace">
 				<xpath>*/ThingDef[defName="GR_Muffalope"]/tools</xpath>
 				<value>
 					<tools>
 						<li Class="CombatExtended.ToolCE">
 							<label>head</label>
-							<capacities><li>Blunt</li></capacities>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
 							<power>10</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
@@ -112,31 +120,33 @@
 					</tools>
 				</value>
 			</li>
-			
+
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_Muffalowolf"]</xpath>
 				<value>
-				<li Class="CombatExtended.RacePropertiesExtensionCE">
-					<bodyShape>Quadruped</bodyShape>
-				</li>
+					<li Class="CombatExtended.RacePropertiesExtensionCE">
+						<bodyShape>Quadruped</bodyShape>
+					</li>
 				</value>
 			</li>
-						
+
 			<li Class="PatchOperationAdd">
 				<xpath>*/ThingDef[defName="GR_Muffalowolf"]/statBases</xpath>
 				<value>
-				<MeleeDodgeChance>0.09</MeleeDodgeChance>
-				<MeleeCritChance>0.5</MeleeCritChance>
+					<MeleeDodgeChance>0.09</MeleeDodgeChance>
+					<MeleeCritChance>0.5</MeleeCritChance>
 				</value>
 			</li>
-			
+
 			<li Class="PatchOperationReplace">
 				<xpath>*/ThingDef[defName="GR_Muffalowolf"]/tools</xpath>
 				<value>
 					<tools>
 						<li Class="CombatExtended.ToolCE">
 							<label>head</label>
-							<capacities><li>Blunt</li></capacities>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
 							<power>12</power>
 							<cooldownTime>1.35</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
@@ -145,6 +155,102 @@
 					</tools>
 				</value>
 			</li>
+
+			<!-- Muffalo - Rat -->
+			<li Class="PatchOperationAddModExtension">
+				<xpath>*/ThingDef[defName="GR_Muffalorat"]</xpath>
+				<value>
+					<li Class="CombatExtended.RacePropertiesExtensionCE">
+						<bodyShape>QuadrupedLow</bodyShape>
+					</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName="GR_Muffalorat"]/statBases</xpath>
+				<value>
+					<MeleeDodgeChance>0.08</MeleeDodgeChance>
+					<MeleeCritChance>0.08</MeleeCritChance>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName="GR_Muffalorat"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>head</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>17</power>
+							<cooldownTime>1.35</cooldownTime>
+							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+							<armorPenetration>0.13</armorPenetration>
+						</li>
+					</tools>
+				</value>
+			</li>
+
+			<!-- Muffalo - Cat -->
+			<li Class="PatchOperationAddModExtension">
+				<xpath>*/ThingDef[defName="GR_Muffalocat"]</xpath>
+				<value>
+					<li Class="CombatExtended.RacePropertiesExtensionCE">
+						<bodyShape>Quadruped</bodyShape>
+					</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName="GR_Muffalocat"]/statBases</xpath>
+				<value>
+					<MeleeDodgeChance>0.5</MeleeDodgeChance>
+					<MeleeCritChance>0.5</MeleeCritChance>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName="GR_Muffalocat"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>left hoof</label>
+							<capacities><li>Blunt</li></capacities>
+							<power>8</power>
+							<cooldownTime>2</cooldownTime>
+							<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+							<armorPenetration>0.3</armorPenetration>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>right hoof</label>
+							<capacities><li>Blunt</li></capacities>
+							<power>8</power>
+							<cooldownTime>2</cooldownTime>
+							<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+							<armorPenetration>0.3</armorPenetration>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<capacities><li>Bite</li></capacities>
+							<power>8</power>
+							<cooldownTime>1.65</cooldownTime>
+							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+							<armorPenetration>0.3</armorPenetration>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>head</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>10</power>
+							<cooldownTime>2.6</cooldownTime>
+							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+							<armorPenetration>0.5</armorPenetration>
+						</li>
+					</tools>
+				</value>
+			</li>
+
 		</operations>
 	</Operation>
 </Patch>
