@@ -6,30 +6,33 @@
 			<li Class="CombatExtended.PatchOperationFindMod">
 				<modName>Genetic Rim</modName>
 			</li>
-	
+
+			<!-- Aberrant Fleshbeast -->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_AberrantFleshbeast"]</xpath>
 				<value>
-				<li Class="CombatExtended.RacePropertiesExtensionCE">
-					<bodyShape>Quadruped</bodyShape>
-				</li>
+					<li Class="CombatExtended.RacePropertiesExtensionCE">
+						<bodyShape>Quadruped</bodyShape>
+					</li>
 				</value>
 			</li>
-						
+
 			<li Class="PatchOperationAdd">
 				<xpath>*/ThingDef[defName="GR_AberrantFleshbeast"]/statBases</xpath>
 				<value>
-				<MeleeDodgeChance>0.01</MeleeDodgeChance>
-				<MeleeCritChance>0.1</MeleeCritChance>
+					<MeleeDodgeChance>0.01</MeleeDodgeChance>
+					<MeleeCritChance>0.1</MeleeCritChance>
 				</value>
 			</li>
-			
+
 			<li Class="PatchOperationReplace">
 				<xpath>*/ThingDef[defName="GR_AberrantFleshbeast"]/tools</xpath>
 				<value>
 					<tools>
 						<li Class="CombatExtended.ToolCE">
-							<capacities><li>Bite</li></capacities>
+							<capacities>
+								<li>Bite</li>
+							</capacities>
 							<power>2</power>
 							<cooldownTime>1</cooldownTime>
 							<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>

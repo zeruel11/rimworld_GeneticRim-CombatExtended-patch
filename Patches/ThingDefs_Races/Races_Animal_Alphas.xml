@@ -7,6 +7,7 @@
 				<modName>Genetic Rim</modName>
 			</li>
 	
+			<!-- Bear -->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_AlphaBear"]</xpath>
 				<value>
@@ -87,7 +88,7 @@
 				</value>
 			</li>
 			
-			<!-- Entelodont / Daeodon -->
+			<!-- Wildboar -->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_AlphaWildBoar"]</xpath>
 				<value>
@@ -139,7 +140,7 @@
 				</value>
 			</li>
 			
-			<!-- Gigantopithecus -->
+			<!-- Boomalope -->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_AlphaBoomalope"]</xpath>
 				<value>
@@ -173,6 +174,7 @@
 				</value>
 			</li>
 			
+			<!-- Chicken -->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_AlphaChicken"]</xpath>
 				<value>
@@ -220,6 +222,7 @@
 				</value>
 			</li>
 			
+			<!-- Emu -->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_AlphaEmu"]</xpath>
 				<value>
@@ -283,7 +286,7 @@
 				</value>
 			</li>
 			
-			<!-- Titanoboa -->
+			<!-- Muffalo -->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_AlphaMuffalo"]</xpath>
 				<value>
@@ -317,6 +320,7 @@
 				</value>
 			</li>
 			
+			<!-- Ostrich -->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_AlphaOstrich"]</xpath>
 				<value>
@@ -380,6 +384,7 @@
 				</value>
 			</li>
 			
+			<!-- Rhino -->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_AlphaRhinoceros"]</xpath>
 				<value>
@@ -438,6 +443,7 @@
 				</value>
 			</li>
 			
+			<!-- Wolf -->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_AlphaWolfTimber"]</xpath>
 				<value>
@@ -510,6 +516,7 @@
 				</value>
 			</li>
 			
+			<!-- Hare -->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_AlphaHare"]</xpath>
 				<value>
@@ -550,6 +557,7 @@
 				</value>
 			</li>
 			
+			<!-- Iguana -->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_AlphaIguana"]</xpath>
 				<value>
@@ -606,6 +614,7 @@
 				</value>
 			</li>
 			
+			<!-- Pig -->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_AlphaPig"]</xpath>
 				<value>
@@ -646,6 +655,7 @@
 				</value>
 			</li>
 			
+			<!-- Rat -->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_AlphaRat"]</xpath>
 				<value>
@@ -702,6 +712,7 @@
 				</value>
 			</li>
 			
+			<!-- Tortoise -->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_AlphaTortoise"]</xpath>
 				<value>

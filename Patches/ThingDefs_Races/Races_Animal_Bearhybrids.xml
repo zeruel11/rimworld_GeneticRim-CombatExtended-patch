@@ -6,31 +6,34 @@
 			<li Class="CombatExtended.PatchOperationFindMod">
 				<modName>Genetic Rim</modName>
 			</li>
-	
+
+			<!-- Bear - Boomalope -->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_Bearalope"]</xpath>
 				<value>
-				<li Class="CombatExtended.RacePropertiesExtensionCE">
-					<bodyShape>Quadruped</bodyShape>
-				</li>
+					<li Class="CombatExtended.RacePropertiesExtensionCE">
+						<bodyShape>Quadruped</bodyShape>
+					</li>
 				</value>
 			</li>
-						
+
 			<li Class="PatchOperationAdd">
 				<xpath>*/ThingDef[defName="GR_Bearalope"]/statBases</xpath>
 				<value>
-				<MeleeDodgeChance>0.09</MeleeDodgeChance>
-				<MeleeCritChance>0.2</MeleeCritChance>
+					<MeleeDodgeChance>0.09</MeleeDodgeChance>
+					<MeleeCritChance>0.2</MeleeCritChance>
 				</value>
 			</li>
-			
+
 			<li Class="PatchOperationReplace">
 				<xpath>*/ThingDef[defName="GR_Bearalope"]/tools</xpath>
 				<value>
 					<tools>
 						<li Class="CombatExtended.ToolCE">
 							<label>left claw</label>
-							<capacities><li>Slash</li></capacities>
+							<capacities>
+								<li>Slash</li>
+							</capacities>
 							<power>15</power>
 							<cooldownTime>2.0</cooldownTime>
 							<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
@@ -46,7 +49,9 @@
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>right claw</label>
-							<capacities><li>Slash</li></capacities>
+							<capacities>
+								<li>Slash</li>
+							</capacities>
 							<power>15</power>
 							<cooldownTime>2.0</cooldownTime>
 							<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
@@ -61,7 +66,9 @@
 							<armorPenetration>0.3</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
-							<capacities><li>Bite</li></capacities>
+							<capacities>
+								<li>Bite</li>
+							</capacities>
 							<power>16</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
@@ -77,7 +84,9 @@
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>head</label>
-							<capacities><li>Blunt</li></capacities>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
 							<power>8</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
@@ -86,31 +95,34 @@
 					</tools>
 				</value>
 			</li>
-			
+
+			<!-- Bear - Chicken -->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_Bearchicken"]</xpath>
 				<value>
-				<li Class="CombatExtended.RacePropertiesExtensionCE">
-					<bodyShape>Quadruped</bodyShape>
-				</li>
+					<li Class="CombatExtended.RacePropertiesExtensionCE">
+						<bodyShape>Quadruped</bodyShape>
+					</li>
 				</value>
 			</li>
-						
+
 			<li Class="PatchOperationAdd">
 				<xpath>*/ThingDef[defName="GR_Bearchicken"]/statBases</xpath>
 				<value>
-				<MeleeDodgeChance>0.12</MeleeDodgeChance>
-				<MeleeCritChance>0.15</MeleeCritChance>
+					<MeleeDodgeChance>0.12</MeleeDodgeChance>
+					<MeleeCritChance>0.15</MeleeCritChance>
 				</value>
 			</li>
-			
+
 			<li Class="PatchOperationReplace">
 				<xpath>*/ThingDef[defName="GR_Bearchicken"]/tools</xpath>
 				<value>
 					<tools>
 						<li Class="CombatExtended.ToolCE">
 							<label>left claw</label>
-							<capacities><li>Slash</li></capacities>
+							<capacities>
+								<li>Slash</li>
+							</capacities>
 							<power>9</power>
 							<cooldownTime>2.0</cooldownTime>
 							<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
@@ -126,7 +138,9 @@
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>right claw</label>
-							<capacities><li>Slash</li></capacities>
+							<capacities>
+								<li>Slash</li>
+							</capacities>
 							<power>9</power>
 							<cooldownTime>2.0</cooldownTime>
 							<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
@@ -141,7 +155,9 @@
 							<armorPenetration>0.2</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
-							<capacities><li>Bite</li></capacities>
+							<capacities>
+								<li>Bite</li>
+							</capacities>
 							<power>10</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
@@ -157,7 +173,9 @@
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>head</label>
-							<capacities><li>Blunt</li></capacities>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
 							<power>7</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
@@ -166,31 +184,34 @@
 					</tools>
 				</value>
 			</li>
-			
+
+			<!-- Bear - Muffalo -->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_Bearffalo"]</xpath>
 				<value>
-				<li Class="CombatExtended.RacePropertiesExtensionCE">
-					<bodyShape>Quadruped</bodyShape>
-				</li>
+					<li Class="CombatExtended.RacePropertiesExtensionCE">
+						<bodyShape>Quadruped</bodyShape>
+					</li>
 				</value>
 			</li>
-						
+
 			<li Class="PatchOperationAdd">
 				<xpath>*/ThingDef[defName="GR_Bearffalo"]/statBases</xpath>
 				<value>
-				<MeleeDodgeChance>0.07</MeleeDodgeChance>
-				<MeleeCritChance>0.5</MeleeCritChance>
+					<MeleeDodgeChance>0.07</MeleeDodgeChance>
+					<MeleeCritChance>0.5</MeleeCritChance>
 				</value>
 			</li>
-			
+
 			<li Class="PatchOperationReplace">
 				<xpath>*/ThingDef[defName="GR_Bearffalo"]/tools</xpath>
 				<value>
 					<tools>
 						<li Class="CombatExtended.ToolCE">
 							<label>left claw</label>
-							<capacities><li>Slash</li></capacities>
+							<capacities>
+								<li>Slash</li>
+							</capacities>
 							<power>18</power>
 							<cooldownTime>2.0</cooldownTime>
 							<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
@@ -206,7 +227,9 @@
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>right claw</label>
-							<capacities><li>Slash</li></capacities>
+							<capacities>
+								<li>Slash</li>
+							</capacities>
 							<power>18</power>
 							<cooldownTime>2.0</cooldownTime>
 							<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
@@ -221,7 +244,9 @@
 							<armorPenetration>0.35</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
-							<capacities><li>Bite</li></capacities>
+							<capacities>
+								<li>Bite</li>
+							</capacities>
 							<power>16</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
@@ -237,7 +262,9 @@
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>head</label>
-							<capacities><li>Blunt</li></capacities>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
 							<power>10</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
@@ -246,31 +273,34 @@
 					</tools>
 				</value>
 			</li>
-			
+
+			<!-- Bear - Wolf -->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_Bearwolf"]</xpath>
 				<value>
-				<li Class="CombatExtended.RacePropertiesExtensionCE">
-					<bodyShape>Quadruped</bodyShape>
-				</li>
+					<li Class="CombatExtended.RacePropertiesExtensionCE">
+						<bodyShape>Quadruped</bodyShape>
+					</li>
 				</value>
 			</li>
-						
+
 			<li Class="PatchOperationAdd">
 				<xpath>*/ThingDef[defName="GR_Bearwolf"]/statBases</xpath>
 				<value>
-				<MeleeDodgeChance>0.14</MeleeDodgeChance>
-				<MeleeCritChance>0.5</MeleeCritChance>
+					<MeleeDodgeChance>0.14</MeleeDodgeChance>
+					<MeleeCritChance>0.5</MeleeCritChance>
 				</value>
 			</li>
-			
+
 			<li Class="PatchOperationReplace">
 				<xpath>*/ThingDef[defName="GR_Bearwolf"]/tools</xpath>
 				<value>
 					<tools>
 						<li Class="CombatExtended.ToolCE">
 							<label>left claw</label>
-							<capacities><li>Slash</li></capacities>
+							<capacities>
+								<li>Slash</li>
+							</capacities>
 							<power>18</power>
 							<cooldownTime>1.5</cooldownTime>
 							<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
@@ -286,7 +316,9 @@
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>right claw</label>
-							<capacities><li>Slash</li></capacities>
+							<capacities>
+								<li>Slash</li>
+							</capacities>
 							<power>18</power>
 							<cooldownTime>1.5</cooldownTime>
 							<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
@@ -301,7 +333,9 @@
 							<armorPenetration>0.35</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
-							<capacities><li>Bite</li></capacities>
+							<capacities>
+								<li>Bite</li>
+							</capacities>
 							<power>18</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
@@ -317,7 +351,9 @@
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>head</label>
-							<capacities><li>Blunt</li></capacities>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
 							<power>10</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
@@ -331,27 +367,29 @@
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_Bearmole"]</xpath>
 				<value>
-				<li Class="CombatExtended.RacePropertiesExtensionCE">
-					<bodyShape>Quadruped</bodyShape>
-				</li>
+					<li Class="CombatExtended.RacePropertiesExtensionCE">
+						<bodyShape>Quadruped</bodyShape>
+					</li>
 				</value>
 			</li>
-						
+
 			<li Class="PatchOperationAdd">
 				<xpath>*/ThingDef[defName="GR_Bearmole"]/statBases</xpath>
 				<value>
-				<MeleeDodgeChance>0.12</MeleeDodgeChance>
-				<MeleeCritChance>0.15</MeleeCritChance>
+					<MeleeDodgeChance>0.12</MeleeDodgeChance>
+					<MeleeCritChance>0.15</MeleeCritChance>
 				</value>
 			</li>
-			
+
 			<li Class="PatchOperationReplace">
 				<xpath>*/ThingDef[defName="GR_Bearmole"]/tools</xpath>
 				<value>
 					<tools>
 						<li Class="CombatExtended.ToolCE">
 							<label>left claw</label>
-							<capacities><li>Slash</li></capacities>
+							<capacities>
+								<li>Slash</li>
+							</capacities>
 							<power>13</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
@@ -367,7 +405,9 @@
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>right claw</label>
-							<capacities><li>Slash</li></capacities>
+							<capacities>
+								<li>Slash</li>
+							</capacities>
 							<power>13</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
@@ -382,7 +422,9 @@
 							<armorPenetration>0.2</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
-							<capacities><li>Bite</li></capacities>
+							<capacities>
+								<li>Bite</li>
+							</capacities>
 							<power>20</power>
 							<cooldownTime>2.1</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
@@ -398,7 +440,9 @@
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>head</label>
-							<capacities><li>Blunt</li></capacities>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
 							<power>3</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
@@ -412,27 +456,29 @@
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_Bearcat"]</xpath>
 				<value>
-				<li Class="CombatExtended.RacePropertiesExtensionCE">
-					<bodyShape>Quadruped</bodyShape>
-				</li>
+					<li Class="CombatExtended.RacePropertiesExtensionCE">
+						<bodyShape>Quadruped</bodyShape>
+					</li>
 				</value>
 			</li>
-						
+
 			<li Class="PatchOperationAdd">
 				<xpath>*/ThingDef[defName="GR_Bearcat"]/statBases</xpath>
 				<value>
-				<MeleeDodgeChance>0.45</MeleeDodgeChance>
-				<MeleeCritChance>0.5</MeleeCritChance>
+					<MeleeDodgeChance>0.45</MeleeDodgeChance>
+					<MeleeCritChance>0.5</MeleeCritChance>
 				</value>
 			</li>
-			
+
 			<li Class="PatchOperationReplace">
 				<xpath>*/ThingDef[defName="GR_Bearcat"]/tools</xpath>
 				<value>
 					<tools>
 						<li Class="CombatExtended.ToolCE">
 							<label>left claw</label>
-							<capacities><li>Slash</li></capacities>
+							<capacities>
+								<li>Slash</li>
+							</capacities>
 							<power>15</power>
 							<cooldownTime>1.5</cooldownTime>
 							<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
@@ -448,7 +494,9 @@
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>right claw</label>
-							<capacities><li>Slash</li></capacities>
+							<capacities>
+								<li>Slash</li>
+							</capacities>
 							<power>15</power>
 							<cooldownTime>1.5</cooldownTime>
 							<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
@@ -463,7 +511,9 @@
 							<armorPenetration>0.33</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
-							<capacities><li>Bite</li></capacities>
+							<capacities>
+								<li>Bite</li>
+							</capacities>
 							<power>16</power>
 							<cooldownTime>2</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
@@ -479,7 +529,9 @@
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>head</label>
-							<capacities><li>Blunt</li></capacities>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
 							<power>9</power>
 							<cooldownTime>2</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
