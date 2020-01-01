@@ -7,6 +7,7 @@
 				<modName>Genetic Rim</modName>
 			</li>
 
+			<!-- Muffalo - Bear -->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_Muffalobear"]</xpath>
 				<value>
@@ -42,6 +43,43 @@
 				</value>
 			</li>
 
+			<!-- Muffalo - Boomalope -->
+			<li Class="PatchOperationAddModExtension">
+				<xpath>*/ThingDef[defName="GR_Muffalope"]</xpath>
+				<value>
+					<li Class="CombatExtended.RacePropertiesExtensionCE">
+						<bodyShape>Quadruped</bodyShape>
+					</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName="GR_Muffalope"]/statBases</xpath>
+				<value>
+					<MeleeDodgeChance>0.05</MeleeDodgeChance>
+					<MeleeCritChance>0.1</MeleeCritChance>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName="GR_Muffalope"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>head</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>10</power>
+							<cooldownTime>1.65</cooldownTime>
+							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+							<armorPenetration>0.15</armorPenetration>
+						</li>
+					</tools>
+				</value>
+			</li>
+
+			<!-- Muffalo - Chicken -->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_Muffalochicken"]</xpath>
 				<value>
@@ -86,41 +124,7 @@
 				</value>
 			</li>
 
-			<li Class="PatchOperationAddModExtension">
-				<xpath>*/ThingDef[defName="GR_Muffalope"]</xpath>
-				<value>
-					<li Class="CombatExtended.RacePropertiesExtensionCE">
-						<bodyShape>Quadruped</bodyShape>
-					</li>
-				</value>
-			</li>
-
-			<li Class="PatchOperationAdd">
-				<xpath>*/ThingDef[defName="GR_Muffalope"]/statBases</xpath>
-				<value>
-					<MeleeDodgeChance>0.05</MeleeDodgeChance>
-					<MeleeCritChance>0.1</MeleeCritChance>
-				</value>
-			</li>
-
-			<li Class="PatchOperationReplace">
-				<xpath>*/ThingDef[defName="GR_Muffalope"]/tools</xpath>
-				<value>
-					<tools>
-						<li Class="CombatExtended.ToolCE">
-							<label>head</label>
-							<capacities>
-								<li>Blunt</li>
-							</capacities>
-							<power>10</power>
-							<cooldownTime>1.65</cooldownTime>
-							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-							<armorPenetration>0.15</armorPenetration>
-						</li>
-					</tools>
-				</value>
-			</li>
-
+			<!-- Muffalo - Wolf -->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_Muffalowolf"]</xpath>
 				<value>
