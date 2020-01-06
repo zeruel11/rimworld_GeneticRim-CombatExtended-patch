@@ -7,6 +7,7 @@
 				<modName>Genetic Rim</modName>
 			</li>
 	
+			<!-- Wolf - Bear -->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_Wolfbear"]</xpath>
 				<value>
@@ -30,8 +31,8 @@
 					<tools>
 						<li Class="CombatExtended.ToolCE">
 							<label>left claw</label>
-							<capacities><li>Slash</li></capacities>
-							<power>12</power>
+							<capacities><li>Scratch</li></capacities>
+							<power>11</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
 							<surpriseAttack>
@@ -46,8 +47,8 @@
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>right claw</label>
-							<capacities><li>Slash</li></capacities>
-							<power>12</power>
+							<capacities><li>Scratch</li></capacities>
+							<power>11</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
 							<surpriseAttack>
@@ -62,14 +63,14 @@
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<capacities><li>Bite</li></capacities>
-							<power>14</power>
-							<cooldownTime>1.65</cooldownTime>
+							<power>11</power>
+							<cooldownTime>2.1</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 							<surpriseAttack>
 								<extraMeleeDamages>
 									<li>
 										<def>Stun</def>
-										<amount>18</amount>
+										<amount>20</amount>
 									</li>
 								</extraMeleeDamages>
 							</surpriseAttack>
@@ -79,6 +80,7 @@
 				</value>
 			</li>
 			
+			<!-- Wolf - Boomalope -->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_Wolfalope"]</xpath>
 				<value>
@@ -102,7 +104,7 @@
 					<tools>
 						<li Class="CombatExtended.ToolCE">
 							<label>left claw</label>
-							<capacities><li>Slash</li></capacities>
+							<capacities><li>Scratch</li></capacities>
 							<power>9</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
@@ -118,7 +120,7 @@
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>right claw</label>
-							<capacities><li>Slash</li></capacities>
+							<capacities><li>Scratch</li></capacities>
 							<power>9</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
@@ -150,7 +152,7 @@
 						<li Class="CombatExtended.ToolCE">
 							<label>head</label>
 							<capacities><li>Blunt</li></capacities>
-							<power>4</power>
+							<power>3</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 							<armorPenetration>0.15</armorPenetration>
@@ -159,6 +161,7 @@
 				</value>
 			</li>
 			
+			<!-- Wolf - Chicken -->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_Wolfchicken"]</xpath>
 				<value>
@@ -182,7 +185,7 @@
 					<tools>
 						<li Class="CombatExtended.ToolCE">
 							<label>left claw</label>
-							<capacities><li>Slash</li></capacities>
+							<capacities><li>Scratch</li></capacities>
 							<power>7</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
@@ -198,7 +201,7 @@
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>right claw</label>
-							<capacities><li>Slash</li></capacities>
+							<capacities><li>Scratch</li></capacities>
 							<power>7</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
@@ -214,7 +217,7 @@
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<capacities><li>Bite</li></capacities>
-							<power>12</power>
+							<power>11</power>
 							<cooldownTime>2.1</cooldownTime>
 							<linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
 							<surpriseAttack>
@@ -230,7 +233,7 @@
 						<li Class="CombatExtended.ToolCE">
 							<label>head</label>
 							<capacities><li>Blunt</li></capacities>
-							<power>4</power>
+							<power>3</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 							<armorPenetration>0.15</armorPenetration>
@@ -239,6 +242,7 @@
 				</value>
 			</li>
 			
+			<!-- Wolf - Muffalo -->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_Wolffalo"]</xpath>
 				<value>
@@ -262,8 +266,8 @@
 					<tools>
 						<li Class="CombatExtended.ToolCE">
 							<label>left claw</label>
-							<capacities><li>Slash</li></capacities>
-							<power>8</power>
+							<capacities><li>Scratch</li></capacities>
+							<power>7</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
 							<surpriseAttack>
@@ -278,8 +282,8 @@
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>right claw</label>
-							<capacities><li>Slash</li></capacities>
-							<power>8</power>
+							<capacities><li>Scratch</li></capacities>
+							<power>7</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
 							<surpriseAttack>
@@ -303,6 +307,169 @@
 					</tools>
 				</value>
 			</li>
+
+			<!-- Wolf - Rodent  -->
+			<li Class="PatchOperationAddModExtension">
+				<xpath>*/ThingDef[defName="GR_Wolfbeaver"]</xpath>
+				<value>
+				<li Class="CombatExtended.RacePropertiesExtensionCE">
+					<bodyShape>Quadruped</bodyShape>
+				</li>
+				</value>
+			</li>
+						
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName="GR_Wolfbeaver"]/statBases</xpath>
+				<value>
+				<MeleeDodgeChance>0.15</MeleeDodgeChance>
+				<MeleeCritChance>0.4</MeleeCritChance>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName="GR_Wolfbeaver"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>left claw</label>
+							<capacities><li>Scratch</li></capacities>
+							<power>9</power>
+							<cooldownTime>1.65</cooldownTime>
+							<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+							<surpriseAttack>
+								<extraMeleeDamages>
+									<li>
+										<def>Stun</def>
+										<amount>20</amount>
+									</li>
+								</extraMeleeDamages>
+							</surpriseAttack>
+							<armorPenetration>0.32</armorPenetration>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>right claw</label>
+							<capacities><li>Scratch</li></capacities>
+							<power>9</power>
+							<cooldownTime>1.65</cooldownTime>
+							<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+							<surpriseAttack>
+								<extraMeleeDamages>
+									<li>
+										<def>Stun</def>
+										<amount>20</amount>
+									</li>
+								</extraMeleeDamages>
+							</surpriseAttack>
+							<armorPenetration>0.32</armorPenetration>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<capacities><li>Bite</li></capacities>
+							<power>16</power>
+							<cooldownTime>2.1</cooldownTime>
+							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+							<surpriseAttack>
+								<extraMeleeDamages>
+									<li>
+										<def>Stun</def>
+										<amount>20</amount>
+									</li>
+								</extraMeleeDamages>
+							</surpriseAttack>
+							<armorPenetration>0.34</armorPenetration>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>head</label>
+							<capacities><li>Blunt</li></capacities>
+							<power>3</power>
+							<cooldownTime>1.65</cooldownTime>
+							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+							<armorPenetration>0.1</armorPenetration>
+						</li>
+					</tools>
+				</value>
+			</li>
+
+			<!-- Wolf - Cat -->
+			<li Class="PatchOperationAddModExtension">
+				<xpath>*/ThingDef[defName="GR_Wolfcat"]</xpath>
+				<value>
+				<li Class="CombatExtended.RacePropertiesExtensionCE">
+					<bodyShape>Quadruped</bodyShape>
+				</li>
+				</value>
+			</li>
+						
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName="GR_Wolfcat"]/statBases</xpath>
+				<value>
+				<MeleeDodgeChance>0.25</MeleeDodgeChance>
+				<MeleeCritChance>0.55</MeleeCritChance>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName="GR_Wolfcat"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>left claw</label>
+							<capacities><li>Scratch</li></capacities>
+							<power>10</power>
+							<cooldownTime>1</cooldownTime>
+							<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+							<surpriseAttack>
+								<extraMeleeDamages>
+									<li>
+										<def>Stun</def>
+										<amount>13</amount>
+									</li>
+								</extraMeleeDamages>
+							</surpriseAttack>
+							<armorPenetration>0.35</armorPenetration>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>right claw</label>
+							<capacities><li>Scratch</li></capacities>
+							<power>10</power>
+							<cooldownTime>1</cooldownTime>
+							<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+							<surpriseAttack>
+								<extraMeleeDamages>
+									<li>
+										<def>Stun</def>
+										<amount>13</amount>
+									</li>
+								</extraMeleeDamages>
+							</surpriseAttack>
+							<armorPenetration>0.35</armorPenetration>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<capacities><li>Bite</li></capacities>
+							<power>11</power>
+							<cooldownTime>1.5</cooldownTime>
+							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+							<surpriseAttack>
+								<extraMeleeDamages>
+									<li>
+										<def>Stun</def>
+										<amount>15</amount>
+									</li>
+								</extraMeleeDamages>
+							</surpriseAttack>
+							<armorPenetration>0.34</armorPenetration>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>head</label>
+							<capacities><li>Blunt</li></capacities>
+							<power>3</power>
+							<cooldownTime>1.65</cooldownTime>
+							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+							<armorPenetration>0.13</armorPenetration>
+						</li>
+					</tools>
+				</value>
+			</li>
+
 		</operations>
 	</Operation>
 </Patch>
