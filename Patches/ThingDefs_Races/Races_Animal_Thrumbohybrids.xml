@@ -6,24 +6,25 @@
 			<li Class="CombatExtended.PatchOperationFindMod">
 				<modName>Genetic Rim</modName>
 			</li>
-	
+
+			<!-- Bear - Thrumbo -->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_Thrumbear"]</xpath>
 				<value>
-				<li Class="CombatExtended.RacePropertiesExtensionCE">
-					<bodyShape>Birdlike</bodyShape>
-				</li>
+					<li Class="CombatExtended.RacePropertiesExtensionCE">
+						<bodyShape>Birdlike</bodyShape>
+					</li>
 				</value>
 			</li>
-						
+
 			<li Class="PatchOperationAdd">
 				<xpath>*/ThingDef[defName="GR_Thrumbear"]/statBases</xpath>
 				<value>
-				<MeleeDodgeChance>0.05</MeleeDodgeChance>
-				<MeleeCritChance>0.9</MeleeCritChance>
+					<MeleeDodgeChance>0.05</MeleeDodgeChance>
+					<MeleeCritChance>0.9</MeleeCritChance>
 				</value>
 			</li>
-			
+
 			<li Class="PatchOperationReplace">
 				<xpath>*/ThingDef[defName="GR_Thrumbear"]/tools</xpath>
 				<value>
@@ -31,17 +32,19 @@
 						<li Class="CombatExtended.ToolCE">
 							<label>horn</label>
 							<capacities>
-								<li>Cut</li>
+								<li>Scratch</li>
 								<li>Stab</li>
 							</capacities>
-							<power>30</power>
+							<power>28</power>
 							<cooldownTime>1.85</cooldownTime>
 							<linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
 							<armorPenetration>0.99</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>left foot</label>
-							<capacities><li>Blunt</li></capacities>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
 							<power>14</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
@@ -49,22 +52,28 @@
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>right foot</label>
-							<capacities><li>Blunt</li></capacities>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
 							<power>14</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
 							<armorPenetration>0.35</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
-							<capacities><li>Bite</li></capacities>
-							<power>26</power>
+							<capacities>
+								<li>Bite</li>
+							</capacities>
+							<power>25</power>
 							<cooldownTime>2.0</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 							<armorPenetration>0.75</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>head</label>
-							<capacities><li>Blunt</li></capacities>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
 							<power>11</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
@@ -73,24 +82,25 @@
 					</tools>
 				</value>
 			</li>
-			
+
+			<!-- Boomalope - Thrumbo -->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_Thrumbalope"]</xpath>
 				<value>
-				<li Class="CombatExtended.RacePropertiesExtensionCE">
-					<bodyShape>Birdlike</bodyShape>
-				</li>
+					<li Class="CombatExtended.RacePropertiesExtensionCE">
+						<bodyShape>Birdlike</bodyShape>
+					</li>
 				</value>
 			</li>
-						
+
 			<li Class="PatchOperationAdd">
 				<xpath>*/ThingDef[defName="GR_Thrumbalope"]/statBases</xpath>
 				<value>
-				<MeleeDodgeChance>0.06</MeleeDodgeChance>
-				<MeleeCritChance>0.35</MeleeCritChance>
+					<MeleeDodgeChance>0.06</MeleeDodgeChance>
+					<MeleeCritChance>0.35</MeleeCritChance>
 				</value>
 			</li>
-			
+
 			<li Class="PatchOperationReplace">
 				<xpath>*/ThingDef[defName="GR_Thrumbalope"]/tools</xpath>
 				<value>
@@ -98,7 +108,7 @@
 						<li Class="CombatExtended.ToolCE">
 							<label>horn</label>
 							<capacities>
-								<li>Cut</li>
+								<li>Scratch</li>
 								<li>Stab</li>
 							</capacities>
 							<power>18</power>
@@ -108,7 +118,9 @@
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>left foot</label>
-							<capacities><li>Blunt</li></capacities>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
 							<power>14</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
@@ -116,14 +128,18 @@
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>right foot</label>
-							<capacities><li>Blunt</li></capacities>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
 							<power>14</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
 							<armorPenetration>0.3</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
-							<capacities><li>Bite</li></capacities>
+							<capacities>
+								<li>Bite</li>
+							</capacities>
 							<power>16</power>
 							<cooldownTime>2.0</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
@@ -131,7 +147,9 @@
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>head</label>
-							<capacities><li>Blunt</li></capacities>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
 							<power>11</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
@@ -140,24 +158,25 @@
 					</tools>
 				</value>
 			</li>
-		
+
+			<!-- Chicken - Thrumbo -->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_Thrumbochicken"]</xpath>
 				<value>
-				<li Class="CombatExtended.RacePropertiesExtensionCE">
-					<bodyShape>Birdlike</bodyShape>
-				</li>
+					<li Class="CombatExtended.RacePropertiesExtensionCE">
+						<bodyShape>Birdlike</bodyShape>
+					</li>
 				</value>
 			</li>
-						
+
 			<li Class="PatchOperationAdd">
 				<xpath>*/ThingDef[defName="GR_Thrumbochicken"]/statBases</xpath>
 				<value>
-				<MeleeDodgeChance>0.1</MeleeDodgeChance>
-				<MeleeCritChance>0.25</MeleeCritChance>
+					<MeleeDodgeChance>0.1</MeleeDodgeChance>
+					<MeleeCritChance>0.25</MeleeCritChance>
 				</value>
 			</li>
-			
+
 			<li Class="PatchOperationReplace">
 				<xpath>*/ThingDef[defName="GR_Thrumbochicken"]/tools</xpath>
 				<value>
@@ -165,7 +184,7 @@
 						<li Class="CombatExtended.ToolCE">
 							<label>horn</label>
 							<capacities>
-								<li>Cut</li>
+								<li>Scratch</li>
 								<li>Stab</li>
 							</capacities>
 							<power>18</power>
@@ -174,7 +193,9 @@
 							<armorPenetration>0.95</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
-							<capacities><li>Bite</li></capacities>
+							<capacities>
+								<li>Bite</li>
+							</capacities>
 							<power>26</power>
 							<cooldownTime>2.0</cooldownTime>
 							<linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
@@ -182,7 +203,9 @@
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>head</label>
-							<capacities><li>Blunt</li></capacities>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
 							<power>11</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
@@ -191,24 +214,25 @@
 					</tools>
 				</value>
 			</li>
-			
+
+			<!-- Muffalo - Thrumbo -->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_Thrumffalo"]</xpath>
 				<value>
-				<li Class="CombatExtended.RacePropertiesExtensionCE">
-					<bodyShape>Quadruped</bodyShape>
-				</li>
+					<li Class="CombatExtended.RacePropertiesExtensionCE">
+						<bodyShape>Quadruped</bodyShape>
+					</li>
 				</value>
 			</li>
-						
+
 			<li Class="PatchOperationAdd">
 				<xpath>*/ThingDef[defName="GR_Thrumffalo"]/statBases</xpath>
 				<value>
-				<MeleeDodgeChance>0.04</MeleeDodgeChance>
-				<MeleeCritChance>0.5</MeleeCritChance>
+					<MeleeDodgeChance>0.04</MeleeDodgeChance>
+					<MeleeCritChance>0.5</MeleeCritChance>
 				</value>
 			</li>
-			
+
 			<li Class="PatchOperationReplace">
 				<xpath>*/ThingDef[defName="GR_Thrumffalo"]/tools</xpath>
 				<value>
@@ -216,7 +240,7 @@
 						<li Class="CombatExtended.ToolCE">
 							<label>horn</label>
 							<capacities>
-								<li>Cut</li>
+								<li>Scratch</li>
 								<li>Stab</li>
 							</capacities>
 							<power>18</power>
@@ -225,16 +249,29 @@
 							<armorPenetration>0.95</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
-							<label>left hoof</label>
-							<capacities><li>Blunt</li></capacities>
+							<capacities>
+								<li>Bite</li>
+							</capacities>
+							<power>14</power>
+							<cooldownTime>2.0</cooldownTime>
+							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+							<armorPenetration>0.65</armorPenetration>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>left foot</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
 							<power>14</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
 							<armorPenetration>0.3</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
-							<label>right hoof</label>
-							<capacities><li>Blunt</li></capacities>
+							<label>right foot</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
 							<power>14</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
@@ -242,7 +279,9 @@
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>head</label>
-							<capacities><li>Blunt</li></capacities>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
 							<power>11</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
@@ -251,24 +290,25 @@
 					</tools>
 				</value>
 			</li>
-			
+
+			<!-- Wolf - Thrumbo -->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>*/ThingDef[defName="GR_Thrumwolf"]</xpath>
 				<value>
-				<li Class="CombatExtended.RacePropertiesExtensionCE">
-					<bodyShape>Birdlike</bodyShape>
-				</li>
+					<li Class="CombatExtended.RacePropertiesExtensionCE">
+						<bodyShape>Birdlike</bodyShape>
+					</li>
 				</value>
 			</li>
-						
+
 			<li Class="PatchOperationAdd">
 				<xpath>*/ThingDef[defName="GR_Thrumwolf"]/statBases</xpath>
 				<value>
-				<MeleeDodgeChance>0.08</MeleeDodgeChance>
-				<MeleeCritChance>0.7</MeleeCritChance>
+					<MeleeDodgeChance>0.08</MeleeDodgeChance>
+					<MeleeCritChance>0.7</MeleeCritChance>
 				</value>
 			</li>
-			
+
 			<li Class="PatchOperationReplace">
 				<xpath>*/ThingDef[defName="GR_Thrumwolf"]/tools</xpath>
 				<value>
@@ -276,7 +316,7 @@
 						<li Class="CombatExtended.ToolCE">
 							<label>horn</label>
 							<capacities>
-								<li>Cut</li>
+								<li>Scratch</li>
 								<li>Stab</li>
 							</capacities>
 							<power>18</power>
@@ -286,7 +326,9 @@
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>left foot</label>
-							<capacities><li>Blunt</li></capacities>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
 							<power>14</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
@@ -294,14 +336,18 @@
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>right foot</label>
-							<capacities><li>Blunt</li></capacities>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
 							<power>14</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
 							<armorPenetration>0.3</armorPenetration>
 						</li>
 						<li Class="CombatExtended.ToolCE">
-							<capacities><li>Bite</li></capacities>
+							<capacities>
+								<li>Bite</li>
+							</capacities>
 							<power>20</power>
 							<cooldownTime>1.4</cooldownTime>
 							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
@@ -309,7 +355,9 @@
 						</li>
 						<li Class="CombatExtended.ToolCE">
 							<label>head</label>
-							<capacities><li>Blunt</li></capacities>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
 							<power>11</power>
 							<cooldownTime>1.65</cooldownTime>
 							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
@@ -318,6 +366,83 @@
 					</tools>
 				</value>
 			</li>
+
+			<!-- Cat - Thrumbo -->
+			<li Class="PatchOperationAddModExtension">
+				<xpath>*/ThingDef[defName="GR_Thrumbocat"]</xpath>
+				<value>
+					<li Class="CombatExtended.RacePropertiesExtensionCE">
+						<bodyShape>Birdlike</bodyShape>
+					</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName="GR_Thrumbocat"]/statBases</xpath>
+				<value>
+					<MeleeDodgeChance>0.25</MeleeDodgeChance>
+					<MeleeCritChance>0.65</MeleeCritChance>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName="GR_Thrumbocat"]/tools</xpath>
+				<value>
+					<tools>
+						<li Class="CombatExtended.ToolCE">
+							<label>horn</label>
+							<capacities>
+								<li>Scratch</li>
+								<li>Stab</li>
+							</capacities>
+							<power>18</power>
+							<cooldownTime>1</cooldownTime>
+							<linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
+							<armorPenetration>0.99</armorPenetration>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>left foot</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>10</power>
+							<cooldownTime>1.45</cooldownTime>
+							<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+							<armorPenetration>0.3</armorPenetration>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>right foot</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>10</power>
+							<cooldownTime>1.45</cooldownTime>
+							<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+							<armorPenetration>0.3</armorPenetration>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<capacities>
+								<li>GR_HairballBite</li>
+							</capacities>
+							<power>18</power>
+							<cooldownTime>1.4</cooldownTime>
+							<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+							<armorPenetration>0.75</armorPenetration>
+						</li>
+						<li Class="CombatExtended.ToolCE">
+							<label>head</label>
+							<capacities>
+								<li>Blunt</li>
+							</capacities>
+							<power>11</power>
+							<cooldownTime>1.65</cooldownTime>
+							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+							<armorPenetration>0.15</armorPenetration>
+						</li>
+					</tools>
+				</value>
+			</li>
+
 		</operations>
 	</Operation>
 </Patch>
